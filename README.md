@@ -39,30 +39,11 @@ The Portfolio Tracker Application is a full-stack web application that enables u
 - Install Visual Studio Code.
 
 ### Steps to Run Locally
-1. **Clone the Repository**
-   ```bash
-   git clone <repository-url>
-   cd portfolio-tracker
-### Set Up the Backend
+
+#### Set Up the Backend
 1. Open the backend folder in VS Code.
-2. Create a MySQL database:
-   ```sql
-   CREATE DATABASE portfolio_tracker;
-### Update database credentials in application.properties
-
-spring.datasource.url=jdbc:mysql://localhost:3306/portfolio_tracker
-spring.datasource.username=<your-username>
-spring.datasource.password=<your-password>
-
-Build and run the Spring Boot backend
-
-mvn spring-boot:run
-
-API Endpoints
-GET /api/stocks: Fetch all stocks.
-POST /api/stocks: Add a new stock.
-PUT /api/stocks/{id}: Update stock details.
-DELETE /api/stocks/{id}: Delete a stock.
-Deployment
-Frontend: Deploy to Netlify or Vercel.
-Backend: Deploy to Heroku, AWS, or Render.
+2. Update database credentials in `application.properties`:
+   ```properties
+   spring.datasource.url=jdbc:mysql://localhost:3306/portfolio_tracker
+   spring.datasource.username=<your-username>
+   spring.datasource.password=<your-password>
