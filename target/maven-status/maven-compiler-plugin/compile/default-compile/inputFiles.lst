@@ -1,0 +1,6 @@
+/home/ubuntu/finedges/src/main/java/com/portfolio/PortfolioTrackerApplication.java
+/home/ubuntu/finedges/src/main/java/com/portfolio/exception/GlobalExceptionHandler.java
+/home/ubuntu/finedges/src/main/java/com/portfolio/repository/StockRepository.java
+/home/ubuntu/finedges/src/main/java/com/portfolio/entity/Stock.java
+/home/ubuntu/finedges/src/main/java/com/portfolio/controller/HomeController.java
+/home/ubuntu/finedges/src/main/java/com/portfolio/controller/StockController.java
